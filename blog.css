@@ -1,0 +1,605 @@
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+} 
+body{
+	font-family: 'Jost', sans-serif;
+
+}
+.container-fluid{
+width:100%;
+float:left;
+}
+.container{
+	width:1200px;
+	margin:auto;
+}
+.row{
+	width:100%;
+	float:left;
+	display:flex;
+}
+.col{
+	width:100%;
+	float:left;
+}
+
+#one .full{
+	width:100%;
+	float:left;
+	padding:0px 0px;
+}
+#one ul li{
+	list-style:none;
+	display: inline-block;
+   padding: 26px 13px;
+   font-size:18px;
+font-weight: 500;
+}
+#one a{
+	text-decoration: none;
+	color: #2A2A2A;
+	font-size:18px;
+	
+
+}
+#one  .img {
+	width: 100%;
+	float:left;
+	padding: 26px 0px;
+	text-align: center;
+}
+#one .navbar{
+	width:100%;
+	float:left;
+	 display: flex;
+  justify-content: end;
+   text-align: center;
+}
+
+#one .btn{
+	border-radius: 100px;
+	border-style: none;
+	font-size:15px;
+	
+	padding: 15px 19px;
+	background-color:  #E67118;
+    margin-left: 15px;
+    color: #fff;
+}
+
+#two{
+	width: 100%;
+	float:left;
+	margin-bottom: 50px;
+}
+
+#two .all{
+	width: 100%;
+	float:left;
+	background-image: url(image/h2_hero2.jpg);
+
+}
+#two .dark{
+	width: 100%;
+	float: left;
+	background:#00000052;
+}
+#two .h{
+	width:100%;
+	float: left;
+	font-size: 70px;
+	font-weight: 500;
+	text-align: center;
+	padding-top:100px;
+    color:#fff;
+}
+#two .para{
+	width:100%;
+	float:left;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color:#fff;
+    padding-bottom: 100px;
+}
+
+#three{
+	width:100%;
+	float:left;
+    margin-top:50px;
+}
+#three .space{
+	width: 70%;
+	float: left;
+	padding-right: 20px;
+
+}
+
+#three .space .part1{
+	width:100%;
+	float:left;
+	padding-bottom: 50px;
+}
+#three  .ek {
+    width: 100%;
+    height: 500px;
+
+	float:left;
+	background: url("image/bolg-image.webp");
+    background-size: cover;
+
+}
+#three .p-1 h3{
+	width:100%;
+	float:left;
+	font-size: 27px;
+	font-weight: 500;
+	padding: 50px 0px 10px 25px;
+}
+
+#three .p-1 p{
+	width:100%;
+	float:left;
+	font-size:17px;
+	padding-left: 25px;
+}
+#three .i{
+	width: 100%;
+	float:left;
+	display:flex;
+
+}
+#three .p-2{
+ 
+	font-size: 15px;
+	font-weight: 500;
+   color:#999999;
+  padding-top: 29px;
+  padding-left: 20px; 
+  display: flex;
+
+}
+
+#three .p-2 span{
+	margin-top: -4px;
+	margin-left: 5px;
+	  border-right: 2px solid black;
+	  padding-right: 14px;
+}
+#three .space h6{
+	width: 100px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	background:#E67118;
+    font-size: 17px;
+	margin-top: -70px;
+	float: left;
+	margin-left: 40px;
+	color:#fff;
+}
+#three .space .p-1 span{
+font-size: 30px;
+padding-left: 10px;
+}
+
+#three .p-3 span{
+	margin-top: -4px;
+	margin-left: 5px;
+}
+#three .p-3{
+
+    font-size: 15px;
+	font-weight: 500;
+   padding-top: 29px;
+    color:#999999;
+    display: flex;
+    padding-left: 20px;
+} 
+
+
+#three .part2{
+	width:100%;
+	float:left;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#three .img2{
+	width:100%;
+	 height: 500px;
+	float:left;
+	background-image: url(image/2ndimg.webp);
+    background-size: cover;
+}
+
+
+#three .part3{
+	width:100%;
+	float:left;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#three .img3{
+	width:100%;
+	 height: 500px;
+	float:left;
+	background-image: url(image/3rdimg.webp);
+    background-size: cover;
+}
+
+
+#three .part4{
+	width:100%;
+	float:left;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#three .img4{
+	width:100%;
+	 height: 500px;
+	float:left;
+	background-image: url(image/4thimg.webp);
+    background-size: cover;
+}
+
+
+
+#three .part5{
+	width:100%;
+	float:left;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#three .img5{
+	width:100%;
+	 height: 500px;
+	float:left;
+	background-image: url(image/5thimg.webp);
+    background-size: cover;
+}
+
+
+
+#three .space-1{
+	width: 30%;
+	float: left;
+	padding-left:62px;
+	
+}
+#three .space-1 .a-1{
+	width: 100%;
+	float:left;
+	padding-bottom: 50px;
+}
+#three .space-1 .txxt{
+
+float:left;
+padding:10px 50px 10px 15px;
+font-weight: 500;
+color:#999999;
+border:1px solid #0000002e;
+margin-top: 20px;
+}
+
+
+#three .space-1 .btn{
+	color:#fff;
+	border-style: none;
+	font-size: 20px;
+	font-weight:500;
+	padding: 9px 10px;
+	background-color:#E67118;
+    margin-top:20px;
+}
+#three .space-1 .a-22 h4{
+	width:100%;
+	float:left;
+	font-size: 25px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+#three .space-1 .r-1 {
+    width: 100%;
+    float: left;
+	padding-top: 30px;
+}
+#three .space-1 .r-1 .n1{
+width:100%;
+float: left;
+font-size:15px;
+padding-bottom: 30px;
+color:#000000a1;
+}
+
+
+#three .space-1 .hero1 h1{
+	width:100%;
+	float:left;
+	padding-top: 40px;
+	font-size: 20px;
+	color:#2d2d2d;
+	padding-bottom: 40px;
+}
+#three .space-1 .he2{
+	width:100%;
+	float: left;
+	display: flex;
+	
+}
+#three .space-1 .hhee{
+
+float: left;
+margin-top: 30px;
+
+}
+#three .space-1 .bb1{
+	width:100%;
+	float:left;
+	font-size: 24px;
+	font-weight: 500;
+	padding-left: 20px;
+	padding-top: 40px;
+
+}
+#three .space-1 .bb-0{
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	color: #545454;
+	padding-top: 5px;
+}
+
+
+
+#three .space-1 .lol{
+	width:100%;
+	float:left;
+	margin-top:50px;
+}
+
+#three .space-1 .c-1{
+	width:100%;
+	float:left;
+	font-size:24px;
+	padding-bottom: 40px;
+
+}
+
+#three .space-1 .c-2{
+	width:100%;
+	float:left;
+	margin-bottom: 50px;
+	
+}
+#three .space-1 .c-2 ul li{
+    display:inline-block;
+	text-decoration:none;
+	padding:10px 15px;
+	font-size:13px;
+	border:1px solid #2a2a2a21;
+	font-weight: 500;
+	color:#545454;
+	margin-bottom: 10px; 
+}
+#three .space-1 .c-2 ul li:hover{
+   background: orange;
+   cursor: pointer;
+	}
+
+
+#three .space-1 .pol{
+	width:100%;
+	float:left;
+	margin-top: 50px;
+}
+
+
+#three .space-1 .d-1{
+	width: 100%;
+	float:left;
+	font-size: 20px;
+	font-weight:500;
+	padding-bottom: 40px;
+  
+}
+#three .space-1 .d-2{
+	width:100%;
+	float: left;
+	margin:35px 0px;
+}
+#three .space-1 .d-2 ul li{
+	
+	float:left;
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 7px 6px 0px;
+	
+}
+
+#three .space-1 .ell{
+	width:100%;
+	float:left;
+	margin-top: 50px;
+}
+#three .space-1 .e-1{
+	width:100%;
+	float:left;
+	font-size:  20px;
+	font-weight: 500;
+	padding-bottom: 30px;
+}
+#three input{
+	outline: none;
+}
+
+#three .space-1 .e-3{
+	width:100%;
+	float:left;
+    font-size:12px;
+    font-weight: 500;
+    padding:15px 14px;
+    margin-top: 30px;
+  	color:#545454;
+  	border:1px solid #0000002e;
+
+}
+
+#three .space-1 .e-4{
+	width: 100%;
+	float:left;
+	font-size:18px;
+	font-weight: 500;
+	text-align: center;
+	padding: 15px 15px;
+	margin-top: 15px;
+	border:1px solid #E67118;
+	background:#fff;
+	color:#E67118;
+}
+#three .space-1 .e-4:hover{
+   background:#E67118;
+   cursor: pointer;
+   color:#fff;
+	}
+
+
+
+
+
+#eleven{
+	width:100%;
+	float:left;
+	margin-top: 50px;
+	}
+#eleven .all{
+	width: 100%;
+	float:left;
+	
+
+}	
+#eleven .all img{
+	
+	float:left;
+
+
+}
+#eleven .all .l-1 {
+	width:100%;
+	float:left;
+	padding:30px 0px;
+}
+#eleven .all .l-2 {
+	width:100%;
+	float:left;
+	font-size:30px;
+	color: #E67118;
+	padding-bottom: 20px;
+}
+#eleven .all .three p{
+	width:100%;
+	float:left;
+	}
+#eleven .all .four i{
+
+	float:left;
+	padding:30px 10px;
+}
+#eleven .nav{
+
+margin:0px 50px;
+}
+
+
+#eleven .hell{
+	width:100%;
+	float:left;
+}
+
+#eleven .hell .n1 {
+	width:100%;
+	float:left;
+	font-size: 20px;
+	padding-bottom: 20px;
+   
+}
+#eleven .hell .n2 {
+width:100%;
+float:left;
+padding-top: 15px;
+
+}
+
+#eleven .hell .one {
+width:100%;
+float:left;
+margin-top: 35px;
+padding: 20px 20px;
+border-radius: 30px;
+border-color:#E67118;
+}
+@media only screen and (max-width:600px){
+	body{
+		background-color:lightblue;
+	}
+
+.container-fluid{
+width:100%;
+
+}
+.container{
+	width:100%;
+}
+.row{
+	width:100%;
+	display:block;
+}
+.col{
+	width:100%;
+
+}
+#one .full {
+    text-align: center;
+}
+#one .navbar {
+
+    justify-content: center;
+}
+#eleven .nav {
+    margin: 0px 0px;
+}
+#three .space-1 {
+  
+ padding-left:0px;
+}
+#three .space {
+    width: 100%;
+
+}
+#three .space-1 {
+    width:100%;
+
+}
+
+#three .space {
+    padding-right:0px;
+}
+
+#eighth .space {
+    padding: 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+}
